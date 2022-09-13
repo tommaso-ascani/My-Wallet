@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/accounts_page"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/accounts"/>
+    <item
+        android:id="@+id/transaction_page"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/transactions"/>
+    <item
+        android:id="@+id/planning_page"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_access_time_24"
+        android:title="@string/planning"/>
+    <item
+        android:id="@+id/stats_page"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_statistics_24"
+        android:title="@string/stats"/>
+</menu>
